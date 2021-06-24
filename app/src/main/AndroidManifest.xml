@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.covidcensus">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.CovidCensus">
+        <activity android:name=".share"></activity>
+        <activity android:name=".faq" />
+        <activity android:name=".Feedback" />
+        <activity android:name=".AboutUs" />
+        <activity android:name=".CoHelpline" />
+        <activity android:name=".VaccinePortal" />
+        <activity android:name=".labActivity" />
+        <activity android:name=".CovidInfo" />
+        <activity android:name=".SplashScreen">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".CountryActivity" />
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

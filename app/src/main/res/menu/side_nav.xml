@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="Updates">
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/covidinfo"
+                    android:icon="@drawable/ic_guideline"
+                    android:title="State Wise Guidelines" />
+                <item
+                    android:id="@+id/labs"
+                    android:icon="@drawable/ic_lab2"
+                    android:title="Testing Labs" />
+                <item
+                    android:id="@+id/vaccine"
+                    android:icon="@drawable/ic_syringe2"
+                    android:title="Vaccine Portal" />
+                <item
+                    android:id="@+id/helpline"
+                    android:icon="@drawable/ic_helpline"
+                    android:title="Covid-19 Helpline" />
+                <item
+                    android:id="@+id/faq"
+                    android:icon="@drawable/ic_faq"
+                    android:title="FAQs" />
+
+            </group>
+        </menu>
+    </item>
+
+    <item android:title="Let Us know that you visited!">
+
+        <menu>
+
+            <group android:checkableBehavior="single">
+            <item
+                android:id="@+id/feedback"
+                android:icon="@drawable/ic_feedback"
+                android:title="Feedback"/>
+            </group>
+
+        </menu>
+
+
+    </item>
+
+
+    <item android:title="Communicate">
+
+        <menu>
+            <group android:checkableBehavior="single">
+                <item
+                    android:id="@+id/about"
+                    android:icon="@drawable/ic_aboutuser"
+                    android:title="About Developer" />
+                <item
+                    android:id="@+id/share"
+                    android:icon="@drawable/ic_share"
+                    android:title="Share App" />
+            </group>
+
+        </menu>
+
+    </item>
+
+</menu>

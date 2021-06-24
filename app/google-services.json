@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "614623782276",
+    "project_id": "covidcensus",
+    "storage_bucket": "covidcensus.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:614623782276:android:d77aaed7a74e6dc2b7e9d1",
+        "android_client_info": {
+          "package_name": "com.example.covidcensus"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "614623782276-linqq67sun2n2pqlq83pvt8d91m615hn.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoNzbZa3k2RF1Ajytk1JdR8WXFqGC_mts"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "614623782276-linqq67sun2n2pqlq83pvt8d91m615hn.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
