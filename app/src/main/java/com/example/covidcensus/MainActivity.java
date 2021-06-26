@@ -16,6 +16,7 @@ import android.widget.Toast;
 
 import com.example.covidcensus.api.ApiUtilities;
 import com.example.covidcensus.api.CountryData;
+import com.example.covidcensus.view.VaccinePortal;
 import com.google.android.material.navigation.NavigationView;
 
 import org.eazegraph.lib.charts.PieChart;
@@ -171,6 +172,7 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 startActivity(intent2);
                 break;
             case R.id.vaccine:
+                Toast.makeText(this, "Enter the PINCODE to check availability", Toast.LENGTH_SHORT).show();
                 Intent intent3 = new Intent(MainActivity.this, VaccinePortal.class);
                 startActivity(intent3);
                 break;

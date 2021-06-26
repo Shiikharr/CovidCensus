@@ -18,7 +18,7 @@
         <activity android:name=".Feedback" />
         <activity android:name=".AboutUs" />
         <activity android:name=".CoHelpline" />
-        <activity android:name=".VaccinePortal" />
+        <activity android:name=".view.VaccinePortal" />
         <activity android:name=".labActivity" />
         <activity android:name=".CovidInfo" />
         <activity android:name=".SplashScreen">

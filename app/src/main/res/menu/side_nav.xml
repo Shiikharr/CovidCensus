@@ -15,7 +15,7 @@
                 <item
                     android:id="@+id/vaccine"
                     android:icon="@drawable/ic_syringe2"
-                    android:title="Vaccine Portal" />
+                    android:title="Vaccine Availability" />
                 <item
                     android:id="@+id/helpline"
                     android:icon="@drawable/ic_helpline"
