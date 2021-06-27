@@ -30,11 +30,8 @@ public class AboutUs extends AppCompatActivity {
                 .addItem(new Element().setTitle("Version 1.0"))
                 .addGroup("CONNECT WITH US!")
                 .addEmail("shikhar.sri111@gmail.com")
-                .addFacebook("https://www.facebook.com/shik15")
-                .addGitHub("https://github.com/Shiikharr")
-                .addYoutube("https://www.youtube.com/channel/UCK9sKmYOOM6nEjH-caV6-Ug")   //Enter your youtube link here (replace with my channel link)
-                .addPlayStore("com.example.yourprojectname")   //Replace all this with your package name
-                .addInstagram("shiikharr")    //Your instagram id
+                .addPlayStore("com.example.CovidCensus")
+                .addInstagram("shiikharr")
                 .addItem(createCopyright())
                 .create();
         setContentView(aboutPage);
