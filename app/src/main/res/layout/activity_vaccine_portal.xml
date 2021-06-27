@@ -8,12 +8,16 @@
     tools:context=".view.VaccinePortal">
 
 
-    <ImageView
+    <TextView
         android:id="@+id/img"
+        android:text="Vaccine Availability"
+        android:textColor="@color/white"
+        android:fontFamily="@font/rubikbold"
+        android:gravity="center"
+        android:textSize="30dp"
         android:layout_width="match_parent"
         android:layout_height="70dp"
-        android:background="@color/topbar"
-        android:src="@drawable/covvac3" />
+        android:background="@color/topbar"/>
 
     <ProgressBar
         android:id="@+id/progress_circular"
