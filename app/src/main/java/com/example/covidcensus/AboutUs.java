@@ -29,7 +29,7 @@ public class AboutUs extends AppCompatActivity {
                 .setDescription("This time of pandemic has made people aware of the fact that we need to keep ourselves updated with the ongoing situation around the globe. CovidCensus has all the resources in one place.")
                 .addItem(new Element().setTitle("Version 1.0"))
                 .addGroup("CONNECT WITH US!")
-                .addEmail("shikhar.sri111@gmail.com")
+                .addEmail("shikhar.playstoreapp@gmail.com")
                 .addPlayStore("com.example.CovidCensus")
                 .addInstagram("shiikharr")
                 .addItem(createCopyright())

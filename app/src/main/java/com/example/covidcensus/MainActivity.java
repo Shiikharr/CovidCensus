@@ -197,6 +197,10 @@ public class MainActivity extends AppCompatActivity implements NavigationView.On
                 Intent intent8 = new Intent(MainActivity.this, share.class);
                 startActivity(intent8);
                 break;
+            case R.id.privacy:
+                Intent intent9 = new Intent(MainActivity.this, PrivacyPolicy.class);
+                startActivity(intent9);
+                break;
 
         }
         return true;
