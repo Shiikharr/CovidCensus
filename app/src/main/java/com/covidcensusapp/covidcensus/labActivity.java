@@ -1,4 +1,4 @@
-package com.example.covidcensus;
+package com.covidcensusapp.covidcensus;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -6,16 +6,15 @@ import android.os.Bundle;
 
 import com.github.barteksc.pdfviewer.PDFView;
 
-public class faq extends AppCompatActivity {
+public class labActivity extends AppCompatActivity {
 
     PDFView mPDFView;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_faq);
+        setContentView(R.layout.activity_lab);
 
         mPDFView= (PDFView) findViewById(R.id.pdfView);
-        mPDFView.fromAsset("FAQ.pdf").load();
-
+        mPDFView.fromAsset("labspdf.pdf").load();
     }
 }

@@ -1,4 +1,4 @@
-package com.example.covidcensus;
+package com.covidcensusapp.covidcensus;
 
 import android.content.Context;
 

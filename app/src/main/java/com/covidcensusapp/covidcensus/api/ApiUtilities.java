@@ -1,4 +1,4 @@
-package com.example.covidcensus.api;
+package com.covidcensusapp.covidcensus.api;
 
 import retrofit2.Retrofit;
 import retrofit2.converter.gson.GsonConverterFactory;

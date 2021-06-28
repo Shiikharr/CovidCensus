@@ -1,4 +1,4 @@
-package com.example.covidcensus;
+package com.covidcensusapp.covidcensus;
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.ActionBarDrawerToggle;
@@ -14,9 +14,9 @@ import android.view.MenuItem;
 import android.widget.TextView;
 import android.widget.Toast;
 
-import com.example.covidcensus.api.ApiUtilities;
-import com.example.covidcensus.api.CountryData;
-import com.example.covidcensus.view.VaccinePortal;
+import com.covidcensusapp.covidcensus.api.ApiUtilities;
+import com.covidcensusapp.covidcensus.api.CountryData;
+import com.covidcensusapp.covidcensus.view.VaccinePortal;
 import com.google.android.material.navigation.NavigationView;
 
 import org.eazegraph.lib.charts.PieChart;

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
-    package="com.example.covidcensus">
+    package="com.covidcensusapp.covidcensus">
 
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
@@ -13,24 +13,24 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.CovidCensus">
-        <activity android:name=".PrivacyPolicy"></activity>
-        <activity android:name=".share" />
-        <activity android:name=".faq" />
-        <activity android:name=".Feedback" />
-        <activity android:name=".AboutUs" />
-        <activity android:name=".CoHelpline" />
-        <activity android:name=".view.VaccinePortal" />
-        <activity android:name=".labActivity" />
-        <activity android:name=".CovidInfo" />
-        <activity android:name=".SplashScreen">
+        <activity android:name="com.covidcensusapp.covidcensus.PrivacyPolicy"></activity>
+        <activity android:name="com.covidcensusapp.covidcensus.share" />
+        <activity android:name="com.covidcensusapp.covidcensus.faq" />
+        <activity android:name="com.covidcensusapp.covidcensus.Feedback" />
+        <activity android:name="com.covidcensusapp.covidcensus.AboutUs" />
+        <activity android:name="com.covidcensusapp.covidcensus.CoHelpline" />
+        <activity android:name="com.covidcensusapp.covidcensus.view.VaccinePortal" />
+        <activity android:name="com.covidcensusapp.covidcensus.labActivity" />
+        <activity android:name="com.covidcensusapp.covidcensus.CovidInfo" />
+        <activity android:name="com.covidcensusapp.covidcensus.SplashScreen">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".CountryActivity" />
-        <activity android:name=".MainActivity" />
+        <activity android:name="com.covidcensusapp.covidcensus.CountryActivity" />
+        <activity android:name="com.covidcensusapp.covidcensus.MainActivity" />
     </application>
 
 </manifest>

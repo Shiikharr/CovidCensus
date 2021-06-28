@@ -1,4 +1,4 @@
-package com.example.covidcensus.adapter;
+package com.covidcensusapp.covidcensus.adapter;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -9,8 +9,8 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.covidcensus.R;
-import com.example.covidcensus.model.VaccineModel;
+import com.covidcensusapp.covidcensus.R;
+import com.covidcensusapp.covidcensus.model.VaccineModel;
 
 import java.util.List;
 

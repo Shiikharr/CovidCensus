@@ -1,4 +1,4 @@
-package com.example.covidcensus.model;
+package com.covidcensusapp.covidcensus.model;
 
 public class VaccineModel {
 

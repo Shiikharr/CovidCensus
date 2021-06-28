@@ -1,5 +1,5 @@
-package com.example.covidcensus.view;
-import com.example.covidcensus.R;
+package com.covidcensusapp.covidcensus.view;
+import com.covidcensusapp.covidcensus.R;
 import androidx.appcompat.app.AppCompatActivity;
 
 import androidx.fragment.app.DialogFragment;
@@ -23,9 +23,8 @@ import com.android.volley.Response;
 import com.android.volley.VolleyError;
 import com.android.volley.toolbox.StringRequest;
 import com.android.volley.toolbox.Volley;
-import com.example.covidcensus.R;
-import com.example.covidcensus.adapter.VaccinationInfoAdapter;
-import com.example.covidcensus.model.VaccineModel;
+import com.covidcensusapp.covidcensus.adapter.VaccinationInfoAdapter;
+import com.covidcensusapp.covidcensus.model.VaccineModel;
 
 import org.json.JSONArray;
 import org.json.JSONObject;

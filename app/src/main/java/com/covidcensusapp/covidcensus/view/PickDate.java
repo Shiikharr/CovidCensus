@@ -1,4 +1,4 @@
-package com.example.covidcensus.view;
+package com.covidcensusapp.covidcensus.view;
 
 import android.app.DatePickerDialog;
 import android.app.Dialog;

@@ -1,12 +1,10 @@
-package com.example.covidcensus;
+package com.covidcensusapp.covidcensus;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
 import android.annotation.SuppressLint;
-import android.os.Bundle;
-import android.provider.CalendarContract;
 import android.view.Gravity;
 import android.view.View;
 import android.widget.Toast;

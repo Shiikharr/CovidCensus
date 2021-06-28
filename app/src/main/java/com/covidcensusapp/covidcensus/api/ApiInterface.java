@@ -1,4 +1,4 @@
-package com.example.covidcensus.api;
+package com.covidcensusapp.covidcensus.api;
 
 import java.util.List;
 

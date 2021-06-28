@@ -1,4 +1,4 @@
-package com.example.covidcensus;
+package com.covidcensusapp.covidcensus;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
@@ -11,8 +11,8 @@ import android.text.TextWatcher;
 import android.widget.EditText;
 import android.widget.Toast;
 
-import com.example.covidcensus.api.ApiUtilities;
-import com.example.covidcensus.api.CountryData;
+import com.covidcensusapp.covidcensus.api.ApiUtilities;
+import com.covidcensusapp.covidcensus.api.CountryData;
 
 import java.util.ArrayList;
 import java.util.List;

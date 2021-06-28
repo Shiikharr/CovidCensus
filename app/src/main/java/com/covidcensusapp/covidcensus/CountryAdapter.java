@@ -1,4 +1,4 @@
-package com.example.covidcensus;
+package com.covidcensusapp.covidcensus;
 
 import android.content.Context;
 import android.content.Intent;
@@ -12,7 +12,7 @@ import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.bumptech.glide.Glide;
-import com.example.covidcensus.api.CountryData;
+import com.covidcensusapp.covidcensus.api.CountryData;
 
 import java.text.NumberFormat;
 import java.util.List;
