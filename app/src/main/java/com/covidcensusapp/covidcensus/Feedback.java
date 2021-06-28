@@ -35,7 +35,7 @@ public class Feedback extends AppCompatActivity {
 
         String uniqueID= Settings.Secure.getString(getApplicationContext().getContentResolver(), Settings.Secure.ANDROID_ID);
 
-        firebase= new Firebase("https://covidcensus-default-rtdb.firebaseio.com/Users"+uniqueID);
+        firebase= new Firebase("https://covidcensusfinal-default-rtdb.firebaseio.com/"+uniqueID);
         send.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {

@@ -1,33 +1,33 @@
 {
   "project_info": {
-    "project_number": "614623782276",
-    "project_id": "covidcensus",
-    "storage_bucket": "covidcensus.appspot.com"
+    "project_number": "778674062562",
+    "project_id": "covidcensusfinal",
+    "storage_bucket": "covidcensusfinal.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:614623782276:android:d77aaed7a74e6dc2b7e9d1",
+        "mobilesdk_app_id": "1:778674062562:android:b82982015cfb17f93f0abb",
         "android_client_info": {
-          "package_name": "com.example.covidcensus"
+          "package_name": "com.covidcensusapp.covidcensus"
         }
       },
       "oauth_client": [
         {
-          "client_id": "614623782276-linqq67sun2n2pqlq83pvt8d91m615hn.apps.googleusercontent.com",
+          "client_id": "778674062562-lg34uiir509gftih5pr6e4ctseqiljrq.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyAoNzbZa3k2RF1Ajytk1JdR8WXFqGC_mts"
+          "current_key": "AIzaSyBMHSkmaF1R9fSLqfh4R7Bh0Zy7cQm2uG8"
         }
       ],
       "services": {
         "appinvite_service": {
           "other_platform_oauth_client": [
             {
-              "client_id": "614623782276-linqq67sun2n2pqlq83pvt8d91m615hn.apps.googleusercontent.com",
+              "client_id": "778674062562-lg34uiir509gftih5pr6e4ctseqiljrq.apps.googleusercontent.com",
               "client_type": 3
             }
           ]
